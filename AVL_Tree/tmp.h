@@ -140,3 +140,10 @@ void AVLtree<Item>::add_item(const Item &data, AVLnode<Item> *subtop) {
 
             if (subtop->status == AVLnode<Item>::dleft) {
                 if (subtop->left->status == AVLnode<Item>::dleft)
+            }
+        }
+    }
+}
+
+
+#endif
